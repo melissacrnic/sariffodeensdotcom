@@ -1,0 +1,122 @@
+
+<!doctype html> 
+<html>
+<head>
+  <title>The Sariffodeen's</title>
+  <link href='http://fonts.googleapis.com/css?family=Oswald|Roboto:400,100|Monoton' rel='stylesheet' type='text/css'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="flexslider.css" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="jquery.flexslider.js"></script>
+
+  <!-- Place in the <head>, after the three links -->
+
+  <script src="smooth_scroll.js"></script>
+  <script src="bootstrap.js"></script>
+  
+  <script>
+  $(document).ready(function(){
+    $('body').scrollspy({ target: 'header', offset: 100});
+    $('.flexslider').flexslider();
+    $('header a').smoothScroll({offset:-70});
+  });
+  </script>
+</head>
+
+<body>
+  <ul class="menu">
+    <li><a href="#banner"><span>Home</span></a></li>
+    <li><a href="#about">About</a></li>
+    <!--<li><a href="#family">The Sariffodeens</a></li>-->
+    <li><a href="#gallery">Family Photos</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <section class="banner" class id="banner">
+   <h1 class="banner"><span class="the">The</span> Sariffodeen <span class="family">Family</span></h1>
+  </section>
+  <section id="about" class="about box">
+    <h2>About Us</h2>
+    <img src="images/familyphoto.jpg">
+   
+  </section>
+ 
+
+  <!-- <section id="family" class="family box">
+    <h2>The Sariffodeens</h2>
+    <img class="family" src="images/Sariffodeenphoto.png">
+
+  </section> -->
+
+<!-- OPEN FLEXSLIDER-->
+ <section id="gallery" class="gallery box">
+    <h2>Family Photos</h2>
+
+   
+    <!-- 
+    <img class="gallery" src="images/photo1.jpg">
+    <img class="gallery" src="images/photo2.jpg">
+    <img class="gallery" src="images/photo3.jpg">
+    <img class="gallery" src="images/photo4.jpg">
+    <img class="gallery" src="images/photo5.jpg">
+    <br>
+    <img class="gallery" src="images/photo6.jpg">
+    <img class="gallery" src="images/photo7.jpg">
+    <img class="gallery" src="images/photo8.jpg">
+    <img class="gallery" src="images/photo9.jpg">
+    <img class="gallery" src="images/photo10.jpg">
+    <br>
+    <img class="gallery" src="images/photo11.jpg">
+    <img class="gallery" src="images/photo12.jpg">
+    <img class="gallery" src="images/photo13.jpg">
+    <img class="gallery" src="images/photo14.jpg">
+    <img class="gallery" src="images/photo15.jpg">  -->
+
+
+
+    <div class="flexslider" id="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="images/photo1.jpg" />
+        </li>
+        <li>
+          <img src="images/photo2.jpg" />
+        </li>
+        <li>
+          <img src="images/photo3.jpg" />
+        </li>
+        <li>
+          <img src="images/photo4.jpg" />
+        </li>
+        <li>
+          <img src="images/photo5.jpg" />
+        </li>
+        <li>
+          <img src="images/photo6.jpg" />
+        </li>
+        <li>
+          <img src="images/photo7.jpg" />
+        </li>
+        <li>
+          <img src="images/photo8.jpg" />
+        </li>
+        <li>
+          <img src="images/photo11.jpg" />
+        </li>
+      </ul>
+    </div>              
+  </section> <!-- CLOSE PHOTOS DIV -->
+
+ 
+  <section class="contact box" class id="contact">
+  
+  <h2> Want to  get in touch?</h2>
+  <p> Contact us at khalidsariffodeen[at]gmail[dot]com
+  </section>
+
+  <section id="footer" class="footer box">
+  <p><u><a href="#banner">top</a></u></p>
+  | design and development by <a href="http://www.twitter.com/melissacrnic" target="_blank">@melissacrnic</a> via <a href="http://www.ladieslearningcode.com" target="_blank">ladies learning code</a> workshop | <br>
+ 
+  </section>  
+</body>
+</html>
